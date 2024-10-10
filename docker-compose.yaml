@@ -1,0 +1,9 @@
+services:
+  blog-app:
+    image: 246728515833.dkr.ecr.us-east-1.amazonaws.com/blog-app:1.0
+    ports:
+      - 3000:3000
+  blog-app-node:
+    image: 246728515833.dkr.ecr.us-east-1.amazonaws.com/blog-app-node:1.0
+    ports:
+      - 8080:8080
